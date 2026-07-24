@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Autofill"
+  short_description: "Quickly fill job applications from verified profile data"
+  default_prompt: "Use job-autofill to fill the current application from my verified profile and stop before final Submit."
