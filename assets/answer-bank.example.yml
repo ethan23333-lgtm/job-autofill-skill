@@ -1,0 +1,14 @@
+schema_version: 1
+answers:
+  - id: relocation
+    prompt_pattern: "willing to relocate"
+    text: "Open to relocation on a case-by-case basis."
+    applicant_authored: true
+    ai_prohibited: false
+    verified: true
+  - id: no_ai_example
+    prompt_pattern: "certify.*did not use.*AI"
+    text: null
+    applicant_authored: false
+    ai_prohibited: true
+    verified: false
