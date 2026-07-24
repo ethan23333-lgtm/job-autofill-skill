@@ -1,0 +1,145 @@
+schema_version: 1
+profile:
+  identity:
+    first_name:
+      value: Example
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: personal
+    last_name:
+      value: Candidate
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: personal
+  contact:
+    email:
+      value: example@example.com
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: personal
+    phone:
+      value: "+1-555-0100"
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: personal
+    linkedin_url:
+      value: "https://www.linkedin.com/in/example-candidate"
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: personal
+  eligibility:
+    work_authorized:
+      value: true
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: standard
+    citizenship:
+      value: "Example Country"
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: standard
+  preferences:
+    relocation:
+      value: "Open to relocation on a case-by-case basis."
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: standard
+    travel:
+      value: "Up to 25%"
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: standard
+  education:
+    - institution:
+        value: Example University
+        verified: true
+        source: transcript
+        last_updated: "2026-07-23"
+        sensitivity: standard
+      degree:
+        value: Bachelor of Science
+        verified: true
+        source: transcript
+        last_updated: "2026-07-23"
+        sensitivity: standard
+      field_of_study:
+        value: Data Analytics
+        verified: true
+        source: transcript
+        last_updated: "2026-07-23"
+        sensitivity: standard
+      graduation_date:
+        value: "2024-06-15"
+        verified: true
+        source: transcript
+        last_updated: "2026-07-23"
+        sensitivity: standard
+  employment:
+    - employer:
+        value: Example Cafe
+        verified: true
+        source: applicant-confirmed
+        last_updated: "2026-07-23"
+        sensitivity: standard
+      job_title:
+        value: Operations Assistant
+        verified: true
+        source: applicant-confirmed
+        last_updated: "2026-07-23"
+        sensitivity: standard
+      location:
+        value: Example City, CA
+        verified: true
+        source: applicant-confirmed
+        last_updated: "2026-07-23"
+        sensitivity: standard
+      source_period:
+        value: "2023-07 to 2023-10"
+        verified: true
+        source: resume
+        last_updated: "2026-07-23"
+        sensitivity: standard
+      start_date:
+        value: null
+        verified: false
+        source: null
+        last_updated: null
+        sensitivity: standard
+      end_date:
+        value: null
+        verified: false
+        source: null
+        last_updated: null
+        sensitivity: standard
+      hours_per_week:
+        value: 40
+        verified: true
+        source: applicant-confirmed
+        last_updated: "2026-07-23"
+        sensitivity: standard
+  skills:
+    - value: SQL
+      verified: true
+      source: resume
+      last_updated: "2026-07-23"
+      sensitivity: standard
+    - value: Python
+      verified: true
+      source: resume
+      last_updated: "2026-07-23"
+      sensitivity: standard
+  certifications:
+    - value: "Example Analytics Certificate"
+      verified: true
+      source: applicant-confirmed
+      last_updated: "2026-07-23"
+      sensitivity: standard
